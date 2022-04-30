@@ -1,4 +1,4 @@
-# Metaschool - Create your first Hello World Contract in Solidity
+## Metaschool - Create your first Hello World Contract in Solidity
 
 If you are having any problem with the code, check out my updated contract and code files.
 
