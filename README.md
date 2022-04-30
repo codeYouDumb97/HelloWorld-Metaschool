@@ -1,6 +1,6 @@
 ## Metaschool - Create your first Hello World Contract in Solidity
 
-If you are having any problem with the code from the course, do check out this repo for the updated code and contract.
+If you are having any problem with the code from the course, do check out this repo for the working code and contract.
 
 #### Install packages to deploy and interact with the contract.
 
