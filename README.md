@@ -1,15 +1,25 @@
-# Basic Sample Hardhat Project
+# Metaschool - Create your first Hello World Contract in Solidity
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+#### Install packages to deploy and interact with the contract.
 
-Try running some of the following tasks:
+``` 
+npm install 
 
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
 ```
+
+#### To deplo the contract, run the following command
+
+```
+npx hardhat run scripts/deploy.js --network rinkeby
+
+```
+Make sure you have all your API urls and private keys stored inside a `.env` file
+
+#### To interact with the contact
+
+```
+npx hardhat run scripts/interact.js
+
+```
+
+This will change the original message from the contract to a new message you defined in the code.
