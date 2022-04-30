@@ -17,6 +17,8 @@ Make sure you have all your API urls and private keys stored inside a `.env` fil
 
 #### To interact with the contact
 
+Don't forget to paste in your deployed contract address in the CONTACT_ADDRESS variable.
+
 ```
 npx hardhat run scripts/interact.js
 ```
