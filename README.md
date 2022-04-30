@@ -4,14 +4,12 @@
 
 ``` 
 npm install 
-
 ```
 
 #### To deplo the contract, run the following command
 
 ```
 npx hardhat run scripts/deploy.js --network rinkeby
-
 ```
 Make sure you have all your API urls and private keys stored inside a `.env` file
 
@@ -19,7 +17,6 @@ Make sure you have all your API urls and private keys stored inside a `.env` fil
 
 ```
 npx hardhat run scripts/interact.js
-
 ```
 
 This will change the original message from the contract to a new message you defined in the code.
