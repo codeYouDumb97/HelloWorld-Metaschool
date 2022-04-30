@@ -6,7 +6,7 @@
 npm install 
 ```
 
-#### To deplo the contract, run the following command
+#### To deploy the contract, run the following command
 
 ```
 npx hardhat run scripts/deploy.js --network rinkeby
